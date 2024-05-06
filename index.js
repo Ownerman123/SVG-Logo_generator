@@ -85,7 +85,7 @@ const questions = [
     shape.setTextColor(data.textColor);
 
     return {svg: shape.render(), filename: shape.text};
-}else{return "ok then";}
+}else{throw new Error("ok then");}
 
 }
 
@@ -93,7 +93,7 @@ const questions = [
 fs.writeFile( `./examples/${data.filename}.svg`,data.svg, (err) => {
     if (err) throw err;
     console.log('The file has been saved!');
-  })); 
+  })).catch(err => console.log(err)); 
 
 
     

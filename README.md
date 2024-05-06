@@ -26,6 +26,8 @@ node index.js
 Then answer the 
 questions to automatically create a new SVG logo.
 ## Screenshot 
+!["SVG Generator screenshot"](./images/SVG-GEN-example.PNG)
+!["SVG Generator screenshot"](./images/SVG-Gen.PNG)
 ## License 
 ![Static Badge](https://img.shields.io/badge/License-MIT-blue)
 ## Contact 
