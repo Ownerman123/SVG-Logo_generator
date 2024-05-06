@@ -1,5 +1,5 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg " width="200" height="200">
-   <polygon stroke-width="1" fill="red" stroke="green" points="100 325 110 360 140 360 120 380 130 410 100 390 70 410 80 380 60 360 90 360"  />
-    <text x="100" y="115" font-size="60" text-anchor="middle" fill="chocolate" >bro</text>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg " width="300" height="300">
+   <rect x="50" y="5" rx="10" ry="10" width="200" height="200" stroke="red" stroke-width="5" fill="green"/>
+    <text x="150" y="135" font-size="100" text-anchor="middle" fill="chocolate" >BrH</text>
 
 </svg>
