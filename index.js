@@ -3,6 +3,7 @@ const Circle = require('./lib/Circle.js');
 const Square = require('./lib/Square.js');
 const Bestagon = require('./lib/Bestagon.js');
 const Triangle = require('./lib/Triangle.js');
+const fs = require('fs');
 
 const questions = [
     {
@@ -83,12 +84,16 @@ const questions = [
     shape.setText(data.text);
     shape.setTextColor(data.textColor);
 
-    return shape.render();
+    return {svg: shape.render(), filename: shape.text};
 }else{return "ok then";}
 
 }
 
-).then(svg => console.log(svg));
+).then((data)=> 
+fs.writeFile( `./examples/${data.filename}.svg`,data.svg, (err) => {
+    if (err) throw err;
+    console.log('The file has been saved!');
+  })); 
 
 
     

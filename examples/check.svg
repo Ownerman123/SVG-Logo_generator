@@ -3,4 +3,4 @@
     <text x="150" y="135" font-size="100" text-anchor="middle" fill="chocolate" >BrH</text>
 
 </svg> -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg " width="300" height="300"><rect x="50" y="5" rx="10" ry="10" width="200" height="200" stroke="purple" stroke-width="5" fill="pink"/><text x="150" y="135" font-size="100" text-anchor="middle" fill="white" >BRU</text></svg>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg " width="300" height="300"><polygon stroke-width="8" fill="red" stroke="Blue" points=" 80,15 220,15 295,150  220,286 80,285 5,150"/><text x="150" y="180" font-size="120" text-anchor="middle" fill="white" >HUG</text></svg>
